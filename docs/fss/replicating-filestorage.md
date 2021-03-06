@@ -1,5 +1,19 @@
 # Replicating File Storage System (FSS) Oracle Cloud Infrastructure (OCI) using Terraform
 
+### Variables to pull from the OCI Console
+
+- Availability Domain
+- Compartment OCID 
+- User OCID 
+- Subnet OCID (for fss) 
+- API fingerprint
+- Api_private_key_path 
+- Region
+
+
+
+
+
 ### Purpose
 The resources will create 1 FSS, 1 Mount Target, FSS and Snapshot with an option to manage export set attributes in a given compartment and VCN. 
 
